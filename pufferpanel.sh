@@ -1,6 +1,6 @@
 # A Script to auto install Pufferpanel 
 
-sudo apt install sudo systemctl -y
+apt install sudo systemctl -y
 curl -o /bin/systemctl https://raw.githubusercontent.com/gdraheim/docker-systemctl-replacement/master/files/docker/systemctl3.py
 curl -s https://packagecloud.io/install/repositories/pufferpanel/pufferpanel/script.deb.sh | sudo bash
 sudo apt-get install pufferpanel
